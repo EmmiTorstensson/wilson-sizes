@@ -1,0 +1,22 @@
+.blog-post-repeater {
+	.inner-container {
+		display: flex;
+		justify-content: space-between;
+
+		.post {
+			width: 390px;
+			max-width: 100%;
+			
+			.post-title {
+				font-weight: 700;
+				line-height: 28px;
+				margin-bottom: 25px;
+			}
+
+			.post-date {
+				font-size: 12px;
+				text-transform: uppercase;
+			}
+		}
+	}
+}

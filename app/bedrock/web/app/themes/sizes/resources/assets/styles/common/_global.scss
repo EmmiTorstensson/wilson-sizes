@@ -8,6 +8,10 @@ h1 {
 	margin: 30px 0;
 }
 
+h2 {
+	font-size: 20px;
+}
+
 body {
   font-family: sans-serif;
   color: #13322b;
@@ -32,9 +36,11 @@ body {
 	  .link {
 		position: relative;
 		color: $link;
+		font-size: 13px;
+		font-weight: 700;
 		text-transform: uppercase;
 		padding-right: 60px;
-		padding-bottom: 12px;
+		padding-bottom: 10px;
 		border-bottom: solid 2px $link;
 	  }
 
@@ -65,3 +71,10 @@ body {
     padding: 0;
   }
 }
+
+// Backgriund color 
+
+.background-light-grey {
+	background-color: $bg--light-grey;
+}
+
