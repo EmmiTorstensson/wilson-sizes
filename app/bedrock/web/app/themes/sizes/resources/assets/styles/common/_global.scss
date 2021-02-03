@@ -10,6 +10,8 @@ h1 {
 
 h2 {
 	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 25px;
 }
 
 body {
@@ -19,30 +21,33 @@ body {
   line-height: 1.5;
   margin: 0 !important;
   padding: 0 !important;
+}
 
-  .page-section {
-    margin: 0;
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding: 50px 0;
-    z-index: 1;
+.page-section {
+	margin: 0;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	padding: 90px 0;
+	z-index: 1;
+}
 
-    .inner-container {
-      width: 1200px;
-      max-width: 100%;
-      margin: auto;
+.inner-container {
+	width: 1200px;
+	max-width: 100%;
+	margin: auto;
+}
 
-	  .link {
-		position: relative;
-		color: $link;
-		font-size: 13px;
-		font-weight: 700;
-		text-transform: uppercase;
-		padding-right: 60px;
-		padding-bottom: 10px;
-		border-bottom: solid 2px $link;
-	  }
+.link {
+	position: relative;
+	color: $link;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-right: 60px;
+	padding-bottom: 10px;
+	border-bottom: solid 2px $link;
+}
 
 	//   .link::after {
 	// 	content: "";
@@ -54,23 +59,23 @@ body {
 	// 	width: 100%;
 	//   }
 
-	  .link:hover {
-		text-decoration: none;
-	  }
-    }
-  }
+.link:hover {
+	text-decoration: none;
+}
 
-  .bg-cover {
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: center center;
-  }
+ 
 
-  .container {
+.bg-cover {
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: center center;
+}
+
+.container {
     max-width: 100%;
     padding: 0;
-  }
 }
+
 
 // Backgriund color 
 

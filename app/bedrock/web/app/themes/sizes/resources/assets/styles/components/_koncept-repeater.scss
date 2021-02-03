@@ -1,0 +1,25 @@
+.koncept-repeater {
+	.inner-container {
+		.koncept {
+			margin-bottom: 40px;
+			.single-koncept {
+				line-height: 34px;
+				padding: 0 20px;
+				p {
+					color: #687C77;
+					font-weight: 400;
+				}
+				.icon {
+					margin: auto;
+					width: 80px;
+					max-width: 100%;
+					height: auto;
+					margin-bottom: 30px;
+				}
+			}
+		}
+	}
+	.link-center {
+		padding-right: 0;
+	}
+}
