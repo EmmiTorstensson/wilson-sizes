@@ -90,3 +90,38 @@ Container::getInstance()
             'view' => require dirname(__DIR__).'/config/view.php',
         ]);
     }, true);
+
+// Custom Post Types 
+
+function create_posttype() {
+
+	register_post_type( 'projects',
+		// CPT Options
+		array(
+			'labels' => [
+				'name' => __( 'Projects' ),
+				'singular_name' => __( 'project' ),
+				'add_new' => __( 'Add New Project' ),
+			],
+			'public'             => true,
+			'has_archive'        => false,
+			'menu_icon'          => 'dashicons-groups',
+			'rewrite'            => ['slug' => 'project'],
+			'description'        => __( 'Description.', 'your-plugin-textdomain' ),
+			'publicly_queryable' => true,
+			'show_ui'            => true,
+			'show_in_menu'       => true,
+			'query_var'          => true,
+			'capability_type'    => 'post',
+			'hierarchical'       => false,
+			'menu_position'      => 5,
+			'supports'           => ['title', 'thumbnail', 'editor'],
+			'show_in_rest'       => false,
+	
+		)
+	);
+	flush_rewrite_rules();
+}
+
+// Hooking up our function to theme setup
+add_action( 'init', 'create_posttype' );

@@ -1,0 +1,32 @@
+.large-text-block {
+	color: #fff;
+	.inner-container {
+		display: block;
+		position: relative;
+		z-index: 1;
+		.text {
+			width: 872px;
+			max-width: 100%;
+			font-size: 44px;
+			font-weight: 700;
+			margin-bottom: 100px;
+		}
+		.link {
+			color: #fff;
+			border-bottom: 2px #fff solid;
+			float: right;
+		}
+	}
+}
+
+.large-text-block::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    height: 100%;
+    width: 100%;
+	background: rgba($color: #249e6b, $alpha: .7);
+	z-index: 1;
+}
+
