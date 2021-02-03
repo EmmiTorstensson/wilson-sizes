@@ -89,7 +89,16 @@ Container::getInstance()
             'theme' => require dirname(__DIR__).'/config/theme.php',
             'view' => require dirname(__DIR__).'/config/view.php',
         ]);
-    }, true);
+	}, true);
+	
+
+if( function_exists('acf_add_options_page') ) {
+	acf_add_options_page([
+		'page_title' => __('Sizes', 'Emmi Torstensson'),
+		'position' => 200,
+		'icon_url' => 'dashicons-admin-network'
+	]);
+}
 
 // Custom Post Types 
 
