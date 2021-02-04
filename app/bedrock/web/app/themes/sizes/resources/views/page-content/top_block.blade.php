@@ -6,7 +6,7 @@
 
 	<div class="inner-container">
 		@if( $content->sub_headline )
-			<p>{{ $content->sub_headline }}</p>
+			<p class="sub-headline">{{ $content->sub_headline }}</p>
 		@endif
 	
 		<h1 class="headline">

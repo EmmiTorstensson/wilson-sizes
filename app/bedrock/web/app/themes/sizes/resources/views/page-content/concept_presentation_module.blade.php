@@ -1,4 +1,8 @@
-<section class="page-section concept-presentation-module">
+<section 
+	class="page-section concept-presentation-module 
+	@include( 'page-content.padding' )"
+>
+
 	<div class="d-flex inner-container  
 		@if($content->reverse)
 			flex-row-reverse

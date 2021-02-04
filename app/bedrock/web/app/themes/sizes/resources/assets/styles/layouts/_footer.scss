@@ -1,50 +1,64 @@
 .sizes-footer {
 	background-color: #13322B;
 	padding-top: 90px;
-	padding-bottom: 150px;
 	color: #fff;
 	line-height: 30px;
 	font-size: 14px;
-	.headline, a {
-		margin-bottom: 20px;
-		font-weight: 600;
-		font-size: 18px;
-	}
-	.company-logo {
-		height: 130px;
-        width: 170px;
-        background-size: cover;
-        background-position: center center;
-	}
-	.info-container {
-		width: 800px;
-		.adress,
-		.social {
-			padding: 0 30px;
+	.top-box { 
+		border-bottom: 1px solid $text;
+		padding-bottom: 150px;
+
+		.headline, a {
+			margin-bottom: 20px;
+			font-weight: 600;
+			font-size: 18px;
 		}
-		.footer-nav ul {
-			display: flex;
-			li {
-				list-style: none;
-				a {
-					display: block;
-				}
-				a:hover {
-					color: $a;
-				}
-				ul.sub-menu {
-					display: block;
-					padding: 0;
+		.company-logo {
+			width: 70px;
+			max-width: 100%;
+			height: 70px;
+			background-size: cover;
+			background-position: center center;
+		}
+		.info-container {
+			.footer-nav ul {
+				display: flex;
+				li {
+					list-style: none;
 					a {
-						margin: 0;
-						font-weight: 400;
-						font-size: 14px;
+						display: block;
 					}
-					li {
-						margin-bottom: 0;
+					a:hover {
+						color: $a;
+					}
+					ul.sub-menu {
+						display: block;
+						padding: 0;
+						a {
+							margin: 0;
+							font-weight: 400;
+							font-size: 14px;
+						}
+						li {
+							margin-bottom: 0;
+						}
 					}
 				}
 			}
+		}
+	}
+	.bottom-box {
+		padding: 30px 0;
+		.eu-box {
+			.eu-flag {
+
+				width: 135px;
+				height: 46px;
+			}
+		}
+		p {
+			margin: 0;
+			padding: 0;
 		}
 	}
 }

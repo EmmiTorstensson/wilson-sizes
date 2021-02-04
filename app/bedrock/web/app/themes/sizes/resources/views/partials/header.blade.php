@@ -2,8 +2,9 @@
 
 	<div class="nav-logo">
 		<a href="{{ home_url() }}">
-			<div style="background-image: url( {{ get_field('logo', 'options')['url']  }} );"
-			class="company-logo"></div>
+			<div 
+				style="background-image: url( {{ get_field('logo', 'options')['url']  }} );"
+				class="bg-cover company-logo"></div>
 		</a>
 	</div>
 
