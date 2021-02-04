@@ -65,16 +65,16 @@
 		box-shadow: 0 3px 8px rgba($color: #000000, $alpha: .3);
 		.nav-primary li {
 			a {
-				color: $text;
+				color: $headline;
 			}
 			&.current-menu-item {
 				a::after {
-					background-color: $text;
+					background-color: $headline;
 				}
 			}
 		} 
 		.nav-primary li a:after {
-			background-color: $text;
+			background-color: $headline;
 		}
 		
 	}

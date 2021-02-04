@@ -5,12 +5,15 @@ $theme-colors: (
   primary: #525ddc
 );
 
-$text: #13322b;
+$headline: #13322b;
+$text: #687C77;
 $a: #fff;
 $link: #249E6B;
+$link-hover: #1d7e55;
 $bg--light-grey: #E5E5E5;
 
 
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;
 $navbar-light-toggler-icon-bg: none;
+	

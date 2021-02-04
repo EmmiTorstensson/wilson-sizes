@@ -23,7 +23,7 @@
 	
 				<p class="post-date">{{ get_the_date($post->DATE) }}</p>
 
-				<h2 class="post-title">{{ get_the_title($post->ID) }}</h2>
+				<h4 class="post-title">{{ get_the_title($post->ID) }}</h4>
 
 				<a href="{{ get_permalink($post->ID)}}" class="link">{{ $content->link_text }}</a>
 	

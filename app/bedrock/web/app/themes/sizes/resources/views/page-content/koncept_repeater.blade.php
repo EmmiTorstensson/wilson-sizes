@@ -4,10 +4,11 @@
 
 		<div class="d-flex koncept">
 
+
 			@foreach ( $content->koncept as $koncept)
 			<div class="d-flex flex-column align-self-start col-12 col-md-4 single-koncept">
 				<img src="{{ $koncept['icon'] }}" alt="" class="icon">
-				<h2>{{ $koncept['headline'] }}</h2>
+				<h3>{{ $koncept['headline'] }}</h3>
 				<p>{{ $koncept['info_text'] }}</p>
 			</div>
 			@endforeach

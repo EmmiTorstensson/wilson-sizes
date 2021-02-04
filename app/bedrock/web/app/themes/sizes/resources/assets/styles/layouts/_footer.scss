@@ -11,35 +11,40 @@
 		font-size: 18px;
 	}
 	.company-logo {
-		height: 120px;
+		height: 130px;
         width: 170px;
         background-size: cover;
         background-position: center center;
-        margin: auto;
-        margin-bottom: 50px;
 	}
-	.footer-nav ul {
-		display: flex;
-		li {
-			list-style: none;
-			a {
-				display: block;
-			}
-			a:hover {
-				color: $a;
-			}
-			ul.sub-menu {
-				display: block;
-				padding: 0;
+	.info-container {
+		width: 800px;
+		.adress, 
+		.social {
+			padding: 0 30px;
+		}
+		.footer-nav ul {
+			display: flex;
+			li {
+				list-style: none;
 				a {
-					margin: 0;
-					font-weight: 400;
-					font-size: 14px;
+					display: block;
 				}
-				li {
-					margin-bottom: 0;
+				a:hover {
+					color: $a;
+				}
+				ul.sub-menu {
+					display: block;
+					padding: 0;
+					a {
+						margin: 0;
+						font-weight: 400;
+						font-size: 14px;
+					}
+					li {
+						margin-bottom: 0;
+					}
 				}
 			}
-			}
+		}
 	}
 }
