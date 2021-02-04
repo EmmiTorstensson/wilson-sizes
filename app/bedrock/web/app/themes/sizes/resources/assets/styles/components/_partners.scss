@@ -1,0 +1,14 @@
+.partners {
+	.logo-row {
+        .flex-item {    
+			background-size: contain;
+			height: 70px;
+			width: auto;
+			background-repeat: no-repeat;
+			background-position: center center;
+        }
+        .flex-item:nth-child(n+4) {
+            margin-top: 50px;
+        }
+    }
+}
