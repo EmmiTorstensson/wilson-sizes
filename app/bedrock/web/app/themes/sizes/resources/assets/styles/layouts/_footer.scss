@@ -1,0 +1,45 @@
+.sizes-footer {
+	background-color: #13322B;
+	padding-top: 90px;
+	padding-bottom: 150px;
+	color: #fff;
+	line-height: 30px;
+	font-size: 14px;
+	.headline, a {
+		margin-bottom: 20px;
+		font-weight: 600;
+		font-size: 18px;
+	}
+	.company-logo {
+		height: 120px;
+        width: 170px;
+        background-size: cover;
+        background-position: center center;
+        margin: auto;
+        margin-bottom: 50px;
+	}
+	.footer-nav ul {
+		display: flex;
+		li {
+			list-style: none;
+			a {
+				display: block;
+			}
+			a:hover {
+				color: $a;
+			}
+			ul.sub-menu {
+				display: block;
+				padding: 0;
+				a {
+					margin: 0;
+					font-weight: 400;
+					font-size: 14px;
+				}
+				li {
+					margin-bottom: 0;
+				}
+			}
+			}
+	}
+}

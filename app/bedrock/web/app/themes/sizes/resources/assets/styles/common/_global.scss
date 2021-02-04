@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+html {
+	margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: $text;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 h1 {
 	margin: 30px 0;
 }
@@ -16,15 +29,6 @@ h2 {
 
 a {
 	color: $a;
-}
-
-body {
-  font-family: sans-serif;
-  color: $text;
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
 .page-section {
