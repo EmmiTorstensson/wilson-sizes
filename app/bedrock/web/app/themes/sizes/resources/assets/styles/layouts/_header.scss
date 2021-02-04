@@ -12,6 +12,7 @@
 	background-color: transparent;
 	z-index: 10;
 	padding: 20px 50px;
+	transition: all .15s linear;
 	.company-logo {
 		background-size: contain;
 		height: 70px;
@@ -23,11 +24,53 @@
 	.nav-primary li {
 		margin-left: 50px;
 		a {
-			color: #fff;
 			text-decoration: none;
+			padding: 10px 0;
+			position: relative;
+		}
+		a, a::after {
+            transition: all .5s;
+        }
+		a::after {
+			content: '';
+			position: absolute;
+			width: 0%;
+			height: 2px;
+			left: 0;
+			bottom: 0;
+			background-color: $a;
+			border-radius: 2px;
 		}
 		a:hover {
-			
+			color: $a;
+		}
+		a:hover:after {
+			width: 100%;
+		}
+		&.current-menu-item {
+			a {
+				color: $a;
+			}
+            a::after {
+				content: '';
+				position: absolute;
+				width: 100%;
+				height: 2px;
+				left: 0;
+				bottom: 0;
+				background-color: $a;
+				border-radius: 2px;
+            }
+          }
+	}
+	&.white-header {
+		background-color: #fff;
+		box-shadow: 0 3px 8px rgba($color: #000000, $alpha: .3);
+		.nav-primary li a {
+			color: $text;
+		}
+		.nav-primary li a:after {
+			background-color: $text;
 		}
 	}
 }

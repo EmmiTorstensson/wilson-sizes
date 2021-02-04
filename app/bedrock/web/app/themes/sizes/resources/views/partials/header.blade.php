@@ -1,9 +1,11 @@
 <header class="navigation d-flex justify-content-between align-items-center">
 
-	<a href="{{ home_url() }}">
-		<div style="background-image: url( {{ get_field('logo', 'options')['url']  }} );"
-		class="company-logo"></div>
-	</a>
+	<div class="nav-logo">
+		<a href="{{ home_url() }}">
+			<div style="background-image: url( {{ get_field('logo', 'options')['url']  }} );"
+			class="company-logo"></div>
+		</a>
+	</div>
 
 	<nav class="nav-primary">
 		@if (has_nav_menu('primary_navigation'))

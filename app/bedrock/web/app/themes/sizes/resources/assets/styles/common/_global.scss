@@ -14,9 +14,13 @@ h2 {
 	margin-bottom: 25px;
 }
 
+a {
+	color: $a;
+}
+
 body {
   font-family: sans-serif;
-  color: #13322b;
+  color: $text;
   font-size: 16px;
   line-height: 1.5;
   margin: 0 !important;
