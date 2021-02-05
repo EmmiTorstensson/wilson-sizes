@@ -1,7 +1,8 @@
 <footer class="sizes-footer">
 
   <div class="inner-container">
-	<div class="d-flex top-box">
+	<div class="d-flex row top-box">
+
 		@if( get_field('logo_white', 'options') )
 			<a href="{{ home_url() }}">
 				<div 
@@ -35,7 +36,7 @@
 		</div>
 	</div>
 
-	<div class="d-flex justify-content-between align-items-center bottom-box">
+	<div class="d-flex row justify-content-between align-items-center  bottom-box">
 		<div class="eu-box">
 			<a href="{{ get_field('link_to_eu_info', 'options') }}">
 				<div 

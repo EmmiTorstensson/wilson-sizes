@@ -2,7 +2,7 @@
 
 	<div class="inner-container">
 
-		<div class="d-flex koncept">
+		<div class="d-flex row koncept">
 
 
 			@foreach ( $content->koncept as $koncept)

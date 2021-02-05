@@ -1,6 +1,51 @@
 .lates-project-module {
-	.project-box {
-		padding: 0 30px;
+	background-color: #E5E5E5;
+
+	.place-box .post-box:first-of-type  {
+		flex: flex-end;
+	}	
+
+	.place-box .post-box:last-of-type  {
+		transform: translateY(-100px);
+	}
+	.headline {
+		width: 530px;
+		max-width: 100%;
+	}
+	.link {
+		float: right;
+	}
+	.post-box {
+		height: 600px;
+		width: 644px;
+		max-width: 100%;
+		position: relative;
+		.img-box {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 450px;
+		}
+		.project-box {
+			width: 80%;
+			max-width: 100%;
+			padding: 46px;
+			padding: 61;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			background-color: #fff;
+			.font-color {
+				color: $headline;
+			}
+			.developer {
+				margin-bottom: 30px;
+			}
+			.facts {
+				margin-bottom: 20px;
+			}
+		}
 	}
 
 }

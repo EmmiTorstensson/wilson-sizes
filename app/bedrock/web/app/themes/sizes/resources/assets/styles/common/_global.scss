@@ -55,6 +55,9 @@ a {
     }
     &.page-section--no-padding-bottom {
         padding: 100px 0 0 0;
+	}
+	&.page-section--no-padding {
+        padding: 0;
     }
 }
 
